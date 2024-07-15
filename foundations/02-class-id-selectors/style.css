@@ -1,0 +1,27 @@
+.even {
+  color: black;
+  background-color: white;
+  font-size: 33px;
+}
+
+.odd {
+  color: black;
+  background-color:rgb(255 167 167);
+  font-family: Verdana, "DejaVu Sans",sans-serif;
+  font-size: 33px;
+}
+
+.cooler{
+  font-size: 50px;
+}
+
+#unique-ID{
+  color:blue; 
+  font-size: 70px;
+}
+
+#another-ID{
+  font-size: 50px;
+  background-color: rgb(128 255 128); 
+  font-weight: bold;
+}
