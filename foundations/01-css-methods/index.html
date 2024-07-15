@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Methods for Adding CSS</title>
+    <style>
+      p.int_method {
+        color: white;
+        background-color: green;
+      }
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class="ext_method">Style me via the external method!</div>
+    <p class="int_method">I would like to be styled with the internal method, please.</p>
+    <button style="background-color:orange;color:black">Inline Method</button>
   </body>
 </html>
