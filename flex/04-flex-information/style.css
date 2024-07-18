@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+#barberry,
+#chilli,
+#pepper,
+#saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+/* Could have been use one class than multiple IDs */
+/* 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+ */
